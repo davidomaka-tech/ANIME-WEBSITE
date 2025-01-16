@@ -1,0 +1,72 @@
+/* General reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #f4f4f4;
+  line-height: 1.6;
+}
+
+/* Header styling */
+.header {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(90deg, #ff9800, #ff5722);
+  color: #fff;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.header p {
+  font-size: 1.2rem;
+  margin: 10px 0 0;
+}
+
+/* Content section */
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.anime-card {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.anime-card:hover {
+  transform: scale(1.05);
+}
+
+.anime-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.anime-card h2 {
+  color: #ff9800;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* Footer styling */
+.footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #1e1e1e;
+  color: #777;
+  font-size: 0.9rem;
+  margin-top: 20px;
+}
